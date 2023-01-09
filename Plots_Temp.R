@@ -1,4 +1,4 @@
-# Sylt Temperature 2022 
+# Sylt Temperature 2022 Plots
 # Ronny Steinberg
 # 09.01.2023
 

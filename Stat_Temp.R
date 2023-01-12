@@ -60,3 +60,5 @@ print(summary(aov.model))
 posthoc <- TukeyHSD(aov.model) # Posthoc test
 print(posthoc)                                               
 p_sec <- data.frame(posthoc[["Year:Month"]])
+
+kruskal.test(mean_day ~ Month, data=Temp_Sylt)

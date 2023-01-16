@@ -1,0 +1,81 @@
+﻿Sample,Site,Year,Month,Biomass (g),Pigment ,ESTD Conc (µg/100µl),Sample Conc (µg)
+a_vau_L1_040822,List,2022,July,0.0255,Chlorophyll c2,0.2560,10.0392
+a_vau_L1_040822,List,2022,July,0.0255,Fucoxanthin,0.0410,1.6078
+a_vau_L1_040822,List,2022,July,0.0255,Violaxanthin,0.0000,0.0000
+a_vau_L1_040822,List,2022,July,0.0255,Diadinoxanthin,2.5860,101.4118
+a_vau_L1_040822,List,2022,July,0.0255,Diatoxanthin,0.0600,2.3529
+a_vau_L1_040822,List,2022,July,0.0255,Chlorophyll b,3.6520,143.2157
+a_vau_L1_040822,List,2022,July,0.0255,Chlorophyll a,1.4990,58.7843
+a_vau_L1_040822,List,2022,July,0.0255,ß-Carotin,1.0450,40.9804
+a_vau_L2_040822,List,2022,July,0.0295,Chlorophyll c2,0.7950,26.9492
+a_vau_L2_040823,List,2022,July,0.0295,Fucoxanthin,1.0380,35.1864
+a_vau_L2_040824,List,2022,July,0.0295,Violaxanthin,0.0820,2.7797
+a_vau_L2_040825,List,2022,July,0.0295,Diadinoxanthin,2.8110,95.2881
+a_vau_L2_040826,List,2022,July,0.0295,Diatoxanthin,0.1780,6.0339
+a_vau_L2_040827,List,2022,July,0.0295,Chlorophyll b,3.8650,131.0169
+a_vau_L2_040828,List,2022,July,0.0295,Chlorophyll a,8.8170,298.8814
+a_vau_L2_040829,List,2022,July,0.0295,ß-Carotin,1.0490,35.5593
+a_vau_L3_040822,List,2022,July,0.0285,Chlorophyll c2,0.8270,29.0175
+a_vau_L3_040823,List,2022,July,0.0285,Fucoxanthin,0.9730,34.1404
+a_vau_L3_040824,List,2022,July,0.0285,Violaxanthin,0.2070,7.2632
+a_vau_L3_040825,List,2022,July,0.0285,Diadinoxanthin,2.9090,102.0702
+a_vau_L3_040826,List,2022,July,0.0285,Diatoxanthin,0.2460,8.6316
+a_vau_L3_040827,List,2022,July,0.0285,Chlorophyll b,3.4460,120.9123
+a_vau_L3_040828,List,2022,July,0.0285,Chlorophyll a,8.7400,306.6667
+a_vau_L3_040829,List,2022,July,0.0285,ß-Carotin,1.0520,36.9123
+a_vau_L4_040822,List,2022,July,0.0277,Chlorophyll c2,0.8410,30.3610
+a_vau_L4_040823,List,2022,July,0.0277,Fucoxanthin,0.8270,29.8556
+a_vau_L4_040824,List,2022,July,0.0277,Violaxanthin,0.1110,4.0072
+a_vau_L4_040825,List,2022,July,0.0277,Diadinoxanthin,2.8640,103.3935
+a_vau_L4_040826,List,2022,July,0.0277,Diatoxanthin,0.2010,7.2563
+a_vau_L4_040827,List,2022,July,0.0277,Chlorophyll b,3.7310,134.6931
+a_vau_L4_040828,List,2022,July,0.0277,Chlorophyll a,8.9810,324.2238
+a_vau_L4_040829,List,2022,July,0.0277,ß-Carotin,1.0640,38.4116
+a_vau_L5_040822,List,2022,July,0.0522,Chlorophyll c2,1.7490,33.5057
+a_vau_L5_040823,List,2022,July,0.0522,Fucoxanthin,2.3530,45.0766
+a_vau_L5_040824,List,2022,July,0.0522,Violaxanthin,0.2310,4.4253
+a_vau_L5_040825,List,2022,July,0.0522,Diadinoxanthin,4.1230,78.9847
+a_vau_L5_040826,List,2022,July,0.0522,Diatoxanthin,0.4980,9.5402
+a_vau_L5_040827,List,2022,July,0.0522,Chlorophyll b,7.2080,138.0843
+a_vau_L5_040828,List,2022,July,0.0522,Chlorophyll a,14.2580,273.1418
+a_vau_L5_040829,List,2022,July,0.0522,ß-Carotin,2.2280,42.6820
+a_vau_K1_040822,Kampen,2022,July,0.0261,Chlorophyll c2,0.7100,27.2031
+a_vau_K1_040823,Kampen,2022,July,0.0261,Fucoxanthin,0.8930,34.2146
+a_vau_K1_040824,Kampen,2022,July,0.0261,Violaxanthin,0.2200,8.4291
+a_vau_K1_040825,Kampen,2022,July,0.0261,Diadinoxanthin,2.8060,107.5096
+a_vau_K1_040826,Kampen,2022,July,0.0261,Diatoxanthin,0.4480,17.1648
+a_vau_K1_040827,Kampen,2022,July,0.0261,Chlorophyll b,2.9950,114.7510
+a_vau_K1_040828,Kampen,2022,July,0.0261,Chlorophyll a,9.8480,377.3180
+a_vau_K1_040829,Kampen,2022,July,0.0261,ß-Carotin,0.9330,35.7471
+a_vau_K2_040822,Kampen,2022,July,0.0251,Chlorophyll c2,0.6660,26.5339
+a_vau_K2_040823,Kampen,2022,July,0.0251,Fucoxanthin,0.8610,34.3028
+a_vau_K2_040824,Kampen,2022,July,0.0251,Violaxanthin,0.2200,8.7649
+a_vau_K2_040825,Kampen,2022,July,0.0251,Diadinoxanthin,2.6940,107.3307
+a_vau_K2_040826,Kampen,2022,July,0.0251,Diatoxanthin,0.4100,16.3347
+a_vau_K2_040827,Kampen,2022,July,0.0251,Chlorophyll b,2.8640,114.1036
+a_vau_K2_040828,Kampen,2022,July,0.0251,Chlorophyll a,9.6330,383.7849
+a_vau_K2_040829,Kampen,2022,July,0.0251,ß-Carotin,0.8830,35.1793
+a_vau_K3_040822,Kampen,2022,July,0.0268,Chlorophyll c2,0.9450,35.2612
+a_vau_K3_040823,Kampen,2022,July,0.0268,Fucoxanthin,1.1840,44.1791
+a_vau_K3_040824,Kampen,2022,July,0.0268,Violaxanthin,0.2600,9.7015
+a_vau_K3_040825,Kampen,2022,July,0.0268,Diadinoxanthin,3.1650,118.0970
+a_vau_K3_040826,Kampen,2022,July,0.0268,Diatoxanthin,0.1730,6.4552
+a_vau_K3_040827,Kampen,2022,July,0.0268,Chlorophyll b,4.9010,182.8731
+a_vau_K3_040828,Kampen,2022,July,0.0268,Chlorophyll a,11.1610,416.4552
+a_vau_K3_040829,Kampen,2022,July,0.0268,ß-Carotin,1.2650,47.2015
+a_vau_K4_040822,Kampen,2022,July,0.0272,Chlorophyll c2,0.7040,25.8824
+a_vau_K4_040823,Kampen,2022,July,0.0272,Fucoxanthin,0.9520,35.0000
+a_vau_K4_040824,Kampen,2022,July,0.0272,Violaxanthin,0.2710,9.9632
+a_vau_K4_040825,Kampen,2022,July,0.0272,Diadinoxanthin,2.8280,103.9706
+a_vau_K4_040826,Kampen,2022,July,0.0272,Diatoxanthin,0.4850,17.8309
+a_vau_K4_040827,Kampen,2022,July,0.0272,Chlorophyll b,3.0160,110.8824
+a_vau_K4_040828,Kampen,2022,July,0.0272,Chlorophyll a,9.8430,361.8750
+a_vau_K4_040829,Kampen,2022,July,0.0272,ß-Carotin,0.9150,33.6397
+a_vau_K5_040822,Kampen,2022,July,0.0252,Chlorophyll c2,0.0000,0.0000
+a_vau_K5_040823,Kampen,2022,July,0.0252,Fucoxanthin,0.3760,14.9206
+a_vau_K5_040824,Kampen,2022,July,0.0252,Violaxanthin,2.7830,110.4365
+a_vau_K5_040825,Kampen,2022,July,0.0252,Diadinoxanthin,0.2410,9.5635
+a_vau_K5_040826,Kampen,2022,July,0.0252,Diatoxanthin,0.3250,12.8968
+a_vau_K5_040827,Kampen,2022,July,0.0252,Chlorophyll b,4.0120,159.2063
+a_vau_K5_040828,Kampen,2022,July,0.0252,Chlorophyll a,10.3800,411.9048
+a_vau_K5_040829,Kampen,2022,July,0.0252,ß-Carotin,1.0840,43.0159

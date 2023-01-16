@@ -70,7 +70,7 @@ read.delim2('C:/Users/rosteinb/Chap.1-Vaucheria-Physiology/data/Temp_Kampen_2022
     summarise(mean_month = mean(Temperature...C, na.rm = TRUE), 
               # and the SD
               sd_month = sd(Temperature...C, na.rm = TRUE),
-              .groups = 'drop') %>%
+              .groups = 'drop') #%>%
     # Begin ggplot
     ggplot(aes(x = Month, y = mean_month)) + 
     # Create dots

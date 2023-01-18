@@ -141,3 +141,4 @@ Temp_Sylt %>%
   labs(x = " ", y = "Temperature °C") +
   theme_pubclean()+
   scale_color_brewer(palette = 'Paired')
+

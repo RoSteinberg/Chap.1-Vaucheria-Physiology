@@ -31,10 +31,10 @@ read.delim2('C:/Users/rosteinb/Chap.1-Vaucheria-Physiology/data/FvFm_field.csv',
             .groups = 'drop') %>% 
   group_by(Site,Month) %>%
   ggplot(aes(x = PAR, y = ETR_mean, color = Site, shape = Month)) + 
-  geom_point() +
+  geom_point(size = 3) +
   labs(x = "PAR", y = "ETR") +
   theme_pubclean() +
-  scale_color_brewer(palette = 'Paired')
+  scale_color_brewer(palette = 'Set1')
 
 read.delim2('C:/Users/rosteinb/Chap.1-Vaucheria-Physiology/data/FvFm_field.csv', header=TRUE, sep=",", dec=".") %>%
   group_by(Month,Site,PAR) %>%
@@ -51,5 +51,5 @@ read.delim2('C:/Users/rosteinb/Chap.1-Vaucheria-Physiology/data/FvFm_field.csv',
   geom_errorbar(aes(ymin = FvFm_mean-0, ymax = FvFm_mean + FvFm_sd), width = 0.2, position = position_dodge(width = 1), color = 'black') +
   labs(x = " ", y = "Fv/Fm") +
   theme_pubclean() +
-  scale_fill_brewer(palette = 'Paired')
+  scale_fill_brewer(palette = 'Set1')
 

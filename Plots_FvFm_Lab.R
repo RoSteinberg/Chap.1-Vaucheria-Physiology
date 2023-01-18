@@ -28,4 +28,5 @@ read.delim2('C:/Users/rosteinb/Chap.1-Vaucheria-Physiology/data/FvFm_LabEx.csv',
   geom_errorbar(aes(ymin = FvFm_mean-0, ymax = FvFm_mean + FvFm_sd), width = 0.2, position = position_dodge(width = 1), color = 'black') +
   labs(x = " ", y = "Fv/Fm") +
   theme_pubclean() +
-  scale_fill_distiller(palette = 'Paired')
+  scale_fill_distiller(palette = 'Spectral')
+

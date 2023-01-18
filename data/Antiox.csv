@@ -1,0 +1,38 @@
+﻿Sample,Rep,Month,Site,Abs,Conc
+Trolox 1,1,July,Standard,0.709,0.00
+Trolox 2,1,July,Standard,0.581,0.50
+Trolox 3,1,July,Standard,0.438,1.00
+Trolox 4,1,July,Standard,0.296,1.50
+Trolox 5,1,July,Standard,0.144,2.00
+Trolox 6,1,July,Standard,0.001,2.50
+Vau_1,1,July,List,0.51,98.34
+Vau_2,2,July,List,0.473,100.16
+Vau_3,3,July,List,0.507,98.49
+Vau_4,4,July,List,0.488,99.42
+Vau_5,5,July,List,0.48,99.81
+Vau_6,1,July,Kampen,0.508,98.44
+Vau_7,2,July,Kampen,0.502,98.73
+Vau_8,3,July,Kampen,0.526,97.56
+Vau_9,4,July,Kampen,0.484,99.62
+Vau_10,5,July,Kampen,0.547,96.53
+Trolox 1,1,September,Standard,0.687,0.00
+Trolox 2,1,September,Standard,0.548,0.50
+Trolox 3,1,September,Standard,0.378,1.00
+Trolox 4,1,September,Standard,0.286,1.50
+Trolox 5,1,September,Standard,0.168,2.00
+Trolox 6,1,September,Standard,0.008,2.50
+Vau_11,1,September,List,0.546,91.53
+Vau_12,2,September,List,0.504,93.45
+Vau_13,3,September,List,0.523,92.58
+Vau_14,4,September,List,0.546,91.53
+Vau_15,5,September,List,0.571,90.39
+Vau_16,1,September,Kampen,0.534,92.08
+Vau_17,2,September,Kampen,0.484,94.36
+Vau_18,3,September,Kampen,0.538,91.89
+Vau_19,4,September,Kampen,0.473,94.86
+Vau_20,5,September,Kampen,0.509,93.22
+Vau_21,1,September,Kampen,0.557,91.03
+Vau_22,2,September,Kampen,0.591,89.47
+Vau_23,3,September,Kampen,0.548,91.44
+Vau_24,4,September,Kampen,0.541,91.76
+Vau_25,5,September,Kampen,0.56,90.89

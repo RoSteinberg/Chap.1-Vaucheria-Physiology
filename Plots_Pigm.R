@@ -21,18 +21,19 @@ pigments <-
 pigment_plot <- 
   pigments %>% 
   group_by(as.factor(Site), as.factor(Month),as.factor(Pigment)) %>% 
-  ggplot(aes(x = Month, y = mean_conc, group = Site, fill = as.factor(Pigment))) + 
+  ggplot(aes(x = Month, y = mean_conc, group = Site, color = Site, fill = as.factor(Pigment))) + 
   # Create dots
-  geom_bar(stat='identity', position = position_dodge2(width = 1), color = 'black') +
+  geom_bar(stat='identity', position = position_dodge2(width = 1)) +
   geom_errorbar(aes(ymin = mean_conc-0, ymax = mean_conc + sd_conc), width = 0.9, position = position_dodge2(width = 1), color = 'black') +
   scale_x_discrete(limits = c('July', 'September', 'November'),
                    labels = c('July', 'September', 'November'),
                    ) +
-  # Change labels
+  scale_color_manual(values = c('Kampen'='red','List'= 'blue'))+
+  scale_fill_brewer(palette = 'Set1')+
   labs(x = " ", y = "Concentration (µg g)") +
-  theme_pubclean() +
-  scale_color_distiller(palette = 'Paired')
+  theme_pubclean() 
 pigment_plot
+
 
 read.delim2('C:/Users/rosteinb/Chap.1-Vaucheria-Physiology/data/Pigments.csv', header=TRUE, sep=",", dec=".") %>%
   group_by(as.factor(Site), as.factor(Pigment)) %>% 

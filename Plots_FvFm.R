@@ -44,6 +44,25 @@ read.delim2('C:/Users/rosteinb/Chap.1-Vaucheria-Physiology/data/FvFm_field.csv',
             ETR_sd = sd(ETR, na.rm = TRUE),
             FvFm_mean = mean(FvFm, na.rm = TRUE), 
             FvFm_sd = sd(FvFm, na.rm = TRUE),
+            qN_mean = mean(qN, na.rm = TRUE), 
+            qN_sd = sd(qN, na.rm = TRUE),
+            .groups = 'drop') %>% 
+  group_by(Site,Month) %>%
+  ggplot(aes(x = PAR, y = qN_mean, color = Site, shape = Month)) + 
+  geom_point(size = 3) +
+  labs(x = "PAR", y = "qN") +
+  theme_pubclean() +
+  scale_color_brewer(palette = 'Set1')
+
+
+read.delim2('C:/Users/rosteinb/Chap.1-Vaucheria-Physiology/data/FvFm_field.csv', header=TRUE, sep=",", dec=".") %>%
+  group_by(Month,Site,PAR) %>%
+  summarise(temp_mean = mean(Temp, na.rm = TRUE), 
+            temp_sd = sd(Temp, na.rm = TRUE),
+            ETR_mean = mean(ETR, na.rm = TRUE), 
+            ETR_sd = sd(ETR, na.rm = TRUE),
+            FvFm_mean = mean(FvFm, na.rm = TRUE), 
+            FvFm_sd = sd(FvFm, na.rm = TRUE),
             .groups = 'drop') %>% 
   group_by(Site,Month) %>%
   ggplot(aes(x = Site, y = FvFm_mean, fill = Month)) + 

@@ -9,15 +9,15 @@ library(lubridate)
 library(ggpubr)
 library(car)
 
+pigment <-
 read.delim2('C:/Users/rosteinb/Chap.1-Vaucheria-Physiology/data/Pigments_2.csv', header=TRUE, sep=",", dec=".") %>%
   group_by(Site = as.factor(Site), Month = as.factor(Month), Pigment = as.factor(Pigment)) %>% 
-  filter(Pigment %in% c('1_Chlorophyll_a', '2_Chlorophyll_c2', '3_ß-Carotin', '4_Diadinoxanthin', 
-                        '5_Diatoxanthin')) %>%
-  # Then calculate the mean for each pigment and site
+  filter(Pigment %in% c('1 Chlorophyll a', '2 Chlorophyll c2', '3 ß-Carotin', '4 Diadinoxanthin', 
+                        '5 Diatoxanthin')) %>%
   summarise(mean_conc = mean(Sample.Conc..µg., na.rm = TRUE), 
             # and the SD
             sd_conc = sd(Sample.Conc..µg., na.rm = TRUE),
-            .groups = 'drop') %>%
+            .groups = 'drop') 
   ggplot(
     aes(x = Month, y = mean_conc, alpha = Site, fill = Pigment)
          ) + 
@@ -78,8 +78,9 @@ read.delim2('C:/Users/rosteinb/Chap.1-Vaucheria-Physiology/data/Pigments_2.csv',
   ) +
   annotate(
     "text", label = "List", x = 3.225, y = -15
-  ) %>%
-  ggsave(filename = "figures/Pigment_overview.png", width = 12, height = 9, dpi = 600)
+  ) 
+
+ggsave(filename = "figures/Pigment_overview.png", width = 12, height = 9, dpi = 600)
 
 
 pigment_plot

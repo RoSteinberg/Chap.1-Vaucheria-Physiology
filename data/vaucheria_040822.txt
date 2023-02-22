@@ -1,0 +1,18 @@
+Sequence: Ronny_Vaucheria_velutina_040822									
+ESTD concentration: µg/100µl									
+						Vaucheria			
+2: 440 nm, 4 nm	Chlorophyll c2	Fucoxanthin	Violaxanthin	Diadinoxanthin	Diatoxanthin	xanthinester (AREA)	Chlorophyll b	Chlorophyll a	ß-Carotin
+Sample ID	ESTD Conc	ESTD Conc	ESTD Conc	ESTD Conc	ESTD Conc	ESTD Conc	ESTD Conc	ESTD Conc	ESTD Conc
+a_vau_L1_040822	0,256	0,041	0	2,586	0,06	0	3,652	1,499	1,045
+a_vau_L2_040822	0,795	1,038	0,082	2,811	0,178	3578020	3,865	8,817	1,049
+a_vau_L3_040822	0,827	0,973	0,207	2,909	0,246	3883320	3,446	8,74	1,052
+a_vau_L4_040822	0,841	0,827	0,111	2,864	0,201	4204758	3,731	8,981	1,064
+a_vau_L5_040822	1,749	2,353	0,231	4,123	0,498	9962122	7,208	14,258	2,228
+a_vau_K1_040822	0,71	0,893	0,22	2,806	0,448	3413690	2,995	9,848	0,933
+a_vau_K2_040822	0,666	0,861	0,22	2,694	0,41	3177629	2,864	9,633	0,883
+a_vau_K3_040822	0,945	1,184	0,26	3,165	0,173	4964861	4,901	11,161	1,265
+a_vau_K4_040822	0,704	0,952	0,271	2,828	0,485	3335044	3,016	9,843	0,915
+a_vau_K5_040822	0	0,376	2,783	0,241	0,325	3887871	4,012	10,38	1,084
+									
+									
+Probe L1 sollten wir nochmal messen da das Chromatogramm nicht gut aussieht.									

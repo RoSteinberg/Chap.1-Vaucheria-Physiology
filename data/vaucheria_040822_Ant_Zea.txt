@@ -1,0 +1,15 @@
+Sequence : Ronny_Vaucheria_Velutina_040822		
+		
+		
+2: 440 nm, 4 nm	Antheraxanthin	Zeaxanthin
+Sample ID	ESTD Concentration	ESTD Concentration
+a_vau_L1_040822	0	0
+a_vau_L2_040822	0,058	0,001
+a_vau_L3_040822	0,041	0,007
+a_vau_L4_040822	0,047	0,001
+a_vau_L5_040822	0,076	0,003
+a_vau_K1_040822	0,045	0,002
+a_vau_K2_040822	0,039	0,003
+a_vau_K3_040822	0,057	0,002
+a_vau_K4_040822	0,039	0,011
+a_vau_K5_040822	0,049	0,019
